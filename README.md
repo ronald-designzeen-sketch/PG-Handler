@@ -276,9 +276,10 @@ define('WP_DEBUG_LOG', true);
 - Best practices guide
 
 ### Community
-- GitHub repository for issues and contributions
-- WordPress.org support forums
-- Developer documentation
+- **GitHub Repository**: [Issues and contributions](https://github.com/ronald-designzeen-sketch/PG-Handler)
+- **Contributing Guidelines**: [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Changelog**: [CHANGELOG.md](CHANGELOG.md)
+- **Support**: ronald@designzeen.com
 
 ## 🧪 Testing
 
@@ -346,6 +347,25 @@ The complete GPL v2 license text is available in the `LICENSE` file.
 - **Version**: 2.1
 - **WordPress Compatibility**: 5.0+
 - **PHP Compatibility**: 7.4+
+
+## 👥 Contributors
+
+We welcome contributions from the community! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+### How to Contribute
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+### Types of Contributions
+- 🐛 Bug fixes
+- ✨ New features
+- 📚 Documentation improvements
+- 🎨 UI/UX enhancements
+- ⚡ Performance optimizations
+- 🔒 Security improvements
 
 ## 🔮 Roadmap
 
