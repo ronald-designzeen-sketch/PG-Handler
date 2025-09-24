@@ -800,3 +800,127 @@
 .pgh-bg-danger { background-color: #f8d7da; }
 .pgh-bg-info { background-color: #d1ecf1; }
 .pgh-bg-light { background-color: #f8f9fa; }
+
+/* ==========================================================================
+   Search and Filter Bar
+   ========================================================================== */
+
+.pgh-search-filter-bar {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pgh-search-box {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex: 1;
+    min-width: 300px;
+}
+
+.pgh-search-box input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.pgh-filter-box {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pgh-filter-box select {
+    min-width: 120px;
+}
+
+/* Enhanced Payment Table */
+.pgh-payment-table tbody tr:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.pgh-payment-table .status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.pgh-payment-table .status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.pgh-payment-table .status-completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.pgh-payment-table .status-cancelled {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.pgh-payment-table .status-failed {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Quick Actions */
+.pgh-quick-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.pgh-quick-action-btn {
+    padding: 0.5rem 1rem;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.pgh-quick-action-btn:hover {
+    background: #005a87;
+    color: white;
+}
+
+.pgh-quick-action-btn.secondary {
+    background: #6c757d;
+}
+
+.pgh-quick-action-btn.secondary:hover {
+    background: #545b62;
+}
+
+/* Mobile Responsive for Search Bar */
+@media (max-width: 768px) {
+    .pgh-search-filter-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .pgh-search-box {
+        min-width: auto;
+    }
+    
+    .pgh-filter-box {
+        justify-content: space-between;
+    }
+}

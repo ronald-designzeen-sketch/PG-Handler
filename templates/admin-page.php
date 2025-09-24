@@ -24,6 +24,34 @@ $completed_payments = $wpdb->get_var("SELECT COUNT(*) FROM {$plugin->get_table_n
     
     <hr class="wp-header-end">
     
+    <!-- Search and Filter Bar -->
+    <div class="pgh-search-filter-bar">
+        <div class="pgh-search-box">
+            <input type="text" id="payment-search" placeholder="Search payments by name, email, or reference..." class="regular-text">
+            <button type="button" id="search-payments" class="button">Search</button>
+        </div>
+        
+        <div class="pgh-filter-box">
+            <select id="status-filter" class="regular-text">
+                <option value="">All Statuses</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+                <option value="cancelled">Cancelled</option>
+                <option value="failed">Failed</option>
+            </select>
+            
+            <select id="date-filter" class="regular-text">
+                <option value="">All Time</option>
+                <option value="today">Today</option>
+                <option value="week">This Week</option>
+                <option value="month">This Month</option>
+                <option value="year">This Year</option>
+            </select>
+            
+            <button type="button" id="clear-filters" class="button">Clear</button>
+        </div>
+    </div>
+    
     <!-- Dashboard Stats -->
     <div class="pgh-dashboard-stats">
         <div class="pgh-stat-card">
