@@ -6,7 +6,7 @@
  * Version:     2.1
  * Author:      Ronald @ Design Zeen
  * Author URI:  https://designzeen.com
- * Text Domain: paygate-handler
+ * Text Domain: paygate-handler-pro
  * Domain Path: /languages
  * Requires at least: 5.0
  * Tested up to: 6.4
